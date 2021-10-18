@@ -1,12 +1,9 @@
 import random
-def grade12():
-    print("please enter the number of questions: ")
-
-    n=int(input())
-    correct=0
-    mistake=0
-    i=0
+def grade12(n):
     while(i<n):
+        correct=0
+         mistake=0
+        i=0
         a=random.randint(1,100)
         b=random.randint(1,100)
         progress = random.randint(0, 1)  #0:+,1:-
