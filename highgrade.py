@@ -1,15 +1,16 @@
 import random
 
-progress = random.randint(0, 4)  # 随机生成过程 ['+', '-', '*', '/']  0: +; 1: -; 2: *; 3: /
+
 garde = int(input('Please enter your grade?'))
 num = int(input('Please enter the number of questions?'))
 
 
-def highGrade(num, progress):
+def highGrade(num):
     result = []
     counter_for_wrong = []
     counter_for_right = []
     for i in range(0, num):
+        progress = random.randint(0, 4)
         a = round(random.uniform(0, 100), 2)
         b = round(random.uniform(0, 100), 2)
 
