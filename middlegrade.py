@@ -1,12 +1,12 @@
 
 import random
 
-singleScore=0.00
-count=0
-list1=['+','-','*','/'];
-list2=[];
 
 def middleGrade(num):
+    singleScore=0.00
+    count=0
+    list1=['+','-','*','/'];
+    list2=[];
     score = 0
     singleScore=100/num
     for i in range(num):
